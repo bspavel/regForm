@@ -37,7 +37,7 @@ class validation
 				return (int)$str;
 				break;
 			default:
-				return trim(strip_tags($str));
+				return htmlspecialchars(trim(strip_tags($str)));
 				break;
 		}
 	}

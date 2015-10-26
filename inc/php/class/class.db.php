@@ -92,13 +92,11 @@ class db
                 '{$fphoto}'
             )
         ");
-
+        $this->userId=mysqli_insert_id($this->con);
     }
 
     public function getUid()
     {
-        if( empty($this->userId) )
-            $this->userId=mysqli_insert_id($this->con);
         return $this->userId;
     }
 

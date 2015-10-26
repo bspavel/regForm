@@ -23,7 +23,7 @@ if( $lgArr['check'] )
 	$profiledt=$db->getData($lgArr['login'],$lgArr['password']);
 	$fphoto=$profiledt["fphoto"];
 }
-if("profile"!=$pgType)
+if("reg"==$pgType)
 {
 	if( $fDt['check'] ):
 		if($valid->photo($_FILES["fphoto"])):
