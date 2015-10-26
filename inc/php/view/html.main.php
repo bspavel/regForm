@@ -24,8 +24,9 @@
             onchange="location = 'index.php?viewPage='
             +document.getElementById('viewPage').value
             +'&lg='+this.options[this.selectedIndex].value;">
-            <option value="RU">rus</option>
             <option value="EN">eng</option>
+            <option value="RU">rus</option>
+            <option value="UA">ukr</option>
         </select>
     </div>
     <div id="wrapper_content">
