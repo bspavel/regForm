@@ -11,8 +11,11 @@ class getpostdt
                case "EN":
                    return "EN";
                break;
-               default:
+               case "RU":
                    return "RU";
+               break;
+               default:
+                   return "UA";
                break;
            }
        }
