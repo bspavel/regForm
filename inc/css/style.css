@@ -1,0 +1,231 @@
+html
+{
+	height:100%;
+}
+*
+{
+	margin:0;
+}
+#but_pass
+{
+	font-size:13px;
+	letter-spacing:2px;
+	padding:6px 0 6px 0;
+}
+.hide
+{
+	display:none;
+}
+#buttonDiv
+{
+	text-align:center;
+	position:relative;
+	background-color:#ebf2f8;
+}
+#buttonDiv a
+{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	border-radius:10px;
+	font-size:24px;
+	position:relative;
+	top:50%;
+	margin:0 auto;
+	color:#8eadbb;
+	text-decoration:none;
+	text-align:center;
+	background-color:#bdd0e4;
+	/*padding:15px;*/
+	text-shadow: 1px 1px 1px white, 0 0 0.3em white;
+	font-weight:bold;
+}
+#buttonDiv a:hover
+{
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+#regDiv
+{
+	top:-540px;
+	position:relative;
+	background-color:white;
+	height:540px;
+	width:400px;
+}
+#page
+{
+	margin:auto;
+	width:800px;
+	margin-top:20px;
+	margin-bottom:20px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+	overflow:hidden;
+}
+#header
+{
+	font-weight:bold;
+	text-shadow: 1px 1px 1px white, 0 0 0.3em white;
+	font-size:18px;
+	text-align:center;
+	color:#8eadbb;
+	float:left;
+	background-color:#bdd0e4;
+	height:50px;
+	width:800px;
+}
+#wrapper_content
+{
+}
+#left
+{
+	float:left;
+	width:400px;
+	height:540px;
+	background-color:#ebf2f8;
+}
+
+#right
+{
+	float:left;
+	width:400px;
+	height:540px;
+	background-color:#ebf2f8;
+}
+#footer
+{
+	font-weight:bold;
+	text-shadow: 1px 1px 1px white, 0 0 0.3em white;
+	font-size:18px;
+	text-align:center;
+	color:#8eadbb;
+	float:left;
+	background-color:#bdd0e4;
+	height:50px;
+	width:800px;
+}
+
+#id_country
+{
+	width:180px;
+}
+
+#regTbl input
+{
+	width:180px;
+}
+
+#regTbl td
+{
+	padding:8px;
+	width:200px;
+}
+
+#regTbl
+{
+	display:block;
+	font-weight:bold;
+	background-color:#e8f3ff;
+}
+
+#regTbl label
+{
+	display:block;
+}
+
+#loginTbl input
+{
+	width:180px;
+}
+
+#loginTbl td
+{
+	padding:8px;
+	width:200px;
+}
+
+#loginTbl
+{
+	display:block;
+	font-weight:bold;
+	background-color:#e8f3ff;
+}
+
+#loginTbl label
+{
+	display:block;
+}
+
+#buttonTbl td
+{
+	padding:8px;
+	width:200px;
+}
+
+#buttonTbl
+{
+	display:block;
+	font-weight:bold;
+	background-color:#e8f3ff;
+}
+
+.dark:hover
+{
+	background-color:#fdedb9;
+}
+
+.light:hover
+{
+	background-color:#fdedb9;
+}
+
+.dark
+{
+	text-shadow: 1px 1px 1px white, 0 0 0.3em white;
+	color:#9f9772;
+	background-color:#f0ead0;
+}
+.light
+{
+	text-shadow: 1px 1px 1px white, 0 0 0.3em white;
+	color:#9f9772;
+	background-color:#f6f1df;
+}
+
+.sex
+{
+	float:left;
+	border:2px solid #9f9772;
+	border-radius:8px;
+}
+.sex:hover
+{
+	background-color:#9f9772;
+}
+.red
+{
+	line-height:1.5;
+	display:block;
+	float:left;
+}
+#eye
+{
+	display:block;
+	float:right;
+	margin-top:-20px;
+}
+#eye_two
+{
+	display:block;
+	float:right;
+	margin-top:-20px;
+}
+#eye_show
+{
+	display:block;
+	float:right;
+	margin-top:-20px;
+}
+#eye_two_show
+{
+	display:block;
+	float:right;
+	margin-top:-20px;
+}
